@@ -13,6 +13,12 @@
             "faIcon": "fa-solid fa-tools"
         },
         {
+            "id": "portfolio",
+            "categoryId": "showcase",
+            "jsonPath": "/data/sections/portfolio.json",
+            "faIcon": "fa-solid fa-folder-open"
+        },
+        {
             "id": "experience",
             "categoryId": "background",
             "jsonPath": "/data/sections/experience.json",
