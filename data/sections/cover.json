@@ -1,0 +1,160 @@
+{
+    "title": {
+        "locales": {
+            "en":{
+                "title_short": "¡Welcome!",
+                "title_short_nav": "About me",
+                "title_long_prefix": "Hello...",
+                "title_long": "I'm {{Jaider Cueto!}}"
+            },
+            "es": {
+                "title_short": "¡Bienvenido!",
+                "title_short_nav": "Sobre mí",
+                "title_long_prefix": "Hola...",
+                "title_long": "Soy {{Jaider Cueto!}}"
+            }
+        }
+    },
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleInlineList",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc",
+                "display_as_list_if_width_is_lower_than": 380
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "label": "Barranquilla - Colombia",
+                    "link": {"href": "", "tooltipString": ""},
+                    "faIcon": "fa-regular fa-address-book"
+                },
+                {
+                    "id": 2,
+                    "label": "jaidercueto.1010@gmail.com",
+                    "link": {"href": "mailto:email@dev.com", "tooltipString": "email_me"},
+                    "faIcon": "fa-regular fa-envelope"
+                },
+                {
+                    "id": 3,
+                    "label": "@jaclog05",
+                    "link": {"href": "https://github.com/Jaclog05", "tooltipString": "see_on_github"},
+                    "faIcon": "fa-brands fa-github"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "component": "ArticleText",
+            "locales": {
+                "en": {"title": "{{A little bit}} about me..."},
+                "es": {"title": "{{Un poco}} sobre mí..."}
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "images/pictures/about-texts-image-1.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": "", "fillLight": ""},
+                    "locales": {
+                        "en": {
+                            "text": "<p>I am a {{Full-Stack Web Developer}} with a strong focus on {{Front-End}}, specializing in [[HTML, CSS, JavaScript, ReactJS, and Redux]]. With over {{two years of experience}}, I apply code quality principles such as DRY, YAGNI, KISS, and SOLID to create clean, efficient, and easy-to-maintain interfaces. I am passionate about optimizing user experience and working on challenging projects where I can contribute innovative and scalable solutions.</p>"
+                        },
+                        "es": {
+                            "text": "<p>Soy {{Desarrollador Web Full-Stack}} con un fuerte enfoque en {{Front-End}}, especializado en [[HTML, CSS, JavaScript, ReactJS y Redux]]. Con más de {{dos años de experiencia}}, aplico principios de calidad de código como DRY, YAGNI, KISS y SOLID para crear interfaces limpias, eficientes y fáciles de mantener. Me apasiona optimizar la experiencia del usuario y trabajar en proyectos desafiantes donde pueda aportar soluciones innovadoras y escalables.</p>"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "component": "ArticleInfoList",
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "locales": {
+                "en": {"title": "Personal {{interests}}"},
+                "es": {"title": "Intereses {{personales}}"}
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon": "fa-solid fa-futbol",
+                    "faIconColors": {"bg": "", "bgLight": "", "fill": "", "fillLight": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "locales": {
+                        "en": {
+                            "title": "Follow {{Soccer}} and sports news",
+                            "text": "I like to stay up to date with the latest sports news."
+                        },
+                        "es": {
+                            "title": "Seguir el {{Futbol}} y noticias deportivas",
+                            "text": "Me gusta estar al tanto de la actualidad deportiva."
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "faIcon": "fa-solid fa-film",
+                    "faIconColors": {"bg": "", "bgLight": "", "fill": "", "fillLight": ""},
+                    "label": "",
+                    "link": {"href": null, "tooltipString": null},
+                    "locales": {
+                        "en": {
+                            "title": "Watch {{Movies and Series}}",
+                            "text": "I enjoy the crime and mystery genres."
+                        },
+                        "es": {
+                            "title": "Ver {{Peliculas y Series}}",
+                            "text": "Disfruto el género policiaco y de misterio"
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "faIcon": "fa-solid fa-music",
+                    "faIconColors": {"bg": "", "bgLight": "", "fill": "", "fillLight": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "locales": {
+                        "en": {
+                            "title": "Play the {{Piano}}",
+                            "text": "Exploring different genres and improving my skills."
+                        },
+                        "es": {
+                            "title": "Tocar el {{Piano}}",
+                            "text": "Explorando diferentes géneros y mejorando mis habilidades"
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "faIcon": "fa-solid fa-book",
+                    "faIconColors": {"bg": "", "bgLight": "", "fill": "", "fillLight": ""},
+                    "label": "",
+                    "link": {"href": null, "tooltipString": null},
+                    "locales": {
+                        "en": {
+                            "title": "Discover new {{books}}",
+                            "text": "My favorite genres are horror and fantasy."
+                        },
+                        "es": {
+                            "title": "Descubrir nuevos {{libros}}",
+                            "text": "Mis generos favoritos son terror y fantasia"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,128 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Experience",
+                "title_short_nav": "Experience",
+                "title_long_prefix": "Summary of my",
+                "title_long": "{{Work}} Experience"
+            },
+            "es": {
+                "title_short": "Experiencia",
+                "title_short_nav": "Experiencia",
+                "title_long_prefix": "Resumen de mi",
+                "title_long": "Experiencia {{Laboral}}"
+            }
+        }
+    },
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleTimeline",
+            "locales": {
+                "en": {
+                    "title": "My {{timeline}}"
+                },
+                "es": {
+                    "title": "Mi {{cronología}}"
+                }
+            },
+            "settings": {
+                "order_items_by": "dateStart",
+                "order_items_sort": "desc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "",
+                    "faIcon": "fa-solid fa-laptop-code",
+                    "faIconColors": {"bg": "#000", "bgLight": "#000", "fill": "#FFF", "fillLight": "#FFF"},
+                    "dateStart": {"year": 2023, "month": 8},
+                    "dateEnd": {"year": 2024, "month": 6},
+                    "locales": {
+                        "en": {
+                            "title": "{{Full Stack}} Developer",
+                            "province": "Atlántico",
+                            "country": "CO",
+                            "institution": "Joyful Labs",
+                            "text": "I worked as a Full Stack developer with responsibilities such as:",
+                            "list": [
+                                "Developing and maintaining web applications using {{Ruby on Rails}}, ensuring effective integration between front-end and back-end systems.",
+                                "Contributing to the development of a transportation application using {{Flutter}}, providing support for bug fixing based on tickets reported by users.",
+                                "Actively addressing and resolving various technical issues, improving application stability and performance."
+                            ],
+                            "tags": [
+                                "Ruby on Rails",
+                                "Flutter",
+                                "JavaScript"
+                            ]
+                        },
+                        "es": {
+                            "title": "{{Full Stack}} Developer",
+                            "province": "Atlántico",
+                            "country": "CO",
+                            "institution": "Joyful Labs",
+                            "text": "Trabajé como Full Stack developer con funciones como:",
+                            "list": [
+                                "Desarrollar y mantener aplicaciones web usando {{Ruby on Rails}}, asegurando integración efectiva entre sistemas front-end y back-end.",
+                                "Contribuir al desarrollo de una aplicación de transporte usando {{Flutter}}, proveyendo soporte para solución de bugs basando en tickets reportados por usuarios",
+                                "Abordar y resolver activamente diversos problemas técnicos, mejorando la estabilidad y el rendimiento de las aplicaciones."
+                            ],
+                            "tags": [
+                                "Ruby on Rails",
+                                "Flutter",
+                                "Javascript"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": "",
+                    "faIcon": "fa-solid fa-user-gear",
+                    "faIconColors": {"bg": "#000", "bgLight": "#000", "fill": "#FFF","fillLight": "#FFF"},
+                    "dateStart": {"year": 2025, "month": 5},
+                    "dateEnd": {"now": true},
+                    "locales": {
+                        "en": {
+                            "title": "Freelance Web Developer",
+                            "province": "Atlántico",
+                            "country": "CO",
+                            "institution": "Independent",
+                            "text": "Over the past few months, I have been working independently developing a real estate appraisal web application.",
+                            "list": [
+                                "Designing and implementing a website for property appraisal calculations, optimizing the user experience.",
+                                "Developing the interface using {{React}}, ensuring smooth and responsive navigation.",
+                                "Building the backend with {{Node.js}} and managing data storage with {{PostgreSQL}}, ensuring an efficient data flow.",
+                                "Implementing authentication and administrative features for user management and generated reports."
+                            ],
+                            "tags": [
+                                "React",
+                                "Node.js",
+                                "PostgreSQL"
+                            ]
+                        },
+                        "es": {
+                            "title": "Freelance Web Developer",
+                            "province": "Atlántico",
+                            "country": "CO",
+                            "institution": "Independiente",
+                            "text": "Durante los últimos meses he trabajado de manera independiente desarrollando una aplicación web de avalúos inmobiliarios.",
+                            "list": [
+                                "Diseñar e implementar una página web para el cálculo de avalúos de propiedades, optimizando la experiencia del usuario.",
+                                "Desarrollar la interfaz utilizando {{React}}, garantizando una navegación fluida y responsiva.",
+                                "Construir el backend con {{Node.js}} y manejar almacenamiento de datos con {{PostgreSQL}}, asegurando un flujo de datos eficiente.",
+                                "Implementar autenticación y funcionalidades administrativas para gestión de usuarios y reportes generados."
+                            ],
+                            "tags": [
+                                "React",
+                                "Node.js",
+                                "PostgreSQL"
+                            ]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
