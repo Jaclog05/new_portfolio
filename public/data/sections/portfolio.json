@@ -44,6 +44,33 @@
                     "id": 1,
                     "categoryId": "category_web",
                     "img": "",
+                    "faIcon": "fa-solid fa-house",
+                    "faIconColors": { "bg": "", "fill": "" },
+                    "preview": {
+                        "links": [
+                            { "href": "https://aplicativo-web-khaki.vercel.app/", "tooltipString": "open_website", "faIcon": "fa-solid fa-link" }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "EVALUARQ",
+                            "text": "Web application for calculating real estate appraisals with downloadable PDF report generation and an admin panel.",
+                            "tags": ["React", "Vite", "SCSS", "Bootstrap Icons"]
+                        },
+                        "es": {
+                            "title": "EVALUARQ",
+                            "text": "Aplicación web para cálculo de avalúos inmobiliarios con generación de informe PDF descargable y panel de administrador.",
+                            "tags": ["React", "Vite", "SCSS", "Bootstrap Icons"]
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "categoryId": "category_web",
+                    "img": "",
                     "faIcon": "fa-solid fa-bowl-food",
                     "faIconColors": { "bg": "", "fill": "" },
                     "preview": {
@@ -68,7 +95,7 @@
                     }
                 },
                 {
-                    "id": 2,
+                    "id": 3,
                     "categoryId": "category_web",
                     "img": "",
                     "faIcon": "fa-solid fa-book",
